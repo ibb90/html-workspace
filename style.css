@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Menu-Bar
+{
+  background: rgb(200,200,200);
+  text-align: center;
+}
+.Menu-Bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.Menu-Bar ul li{ 
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.Menu-Bar ul li a{ 
+    text-decoration: none;
+    color: #fff;
+}
+.Menu-Bar ul li:hover{ 
+background: rgb(96,96,96);
+border-radius: 5px;
+}
+
+.Menu-Bar .fa{ 
+    margin-right: 7px;
+}
+.sub-menu-1{
+    display: none;
+}
+.Menu-Bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(96,96,96);
+    margin-left: -15px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+.Menu-Bar ul li:hover .sub-menu-1 ul{
+display: block;
+margin: 10px;
+}
+.Menu-Bar ul li:hover .sub-menu-1 li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+}
+.Menu-Bar ul li:hover .sub-menu-1 li:last-child{
+    border-bottom: none;
+}
+.Menu-Bar ul li:hover .sub-menu-1 li a:hover{ 
+    color: rgb(36, 13, 13);
+}
+
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 180px;
+    background: rgb(96,96,96);
+}
