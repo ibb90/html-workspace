@@ -79,7 +79,45 @@ margin: 10px;
 {
     position: absolute;
     display: block;
-    margin-top: -40px;
-    margin-left: 180px;
+    margin-top: -42px;
+    margin-left: 185px;
     background: rgb(96,96,96);
+    border-radius: 5px;
+}
+
+
+.form{
+
+    position: absolute;
+    z-index: 1;
+    background: rgb(160, 56, 56);
+    max-width: 247px;
+    margin: 0 auto 75px;
+    padding: 25px;
+    text-align: center;
+    right: 0;
+}
+.form input{
+    font-family: "Roboto",sans-serif;
+    outline:1;
+    background: #f2f2f2;
+    width: 100%;
+    border:0;
+    margin:0 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size:14px;
+}
+
+.form button{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 022;
+    background:#4CAF50;
+    width: 100%;
+    border:10;
+    padding: 10px;
+    color: rgb(200,200,200);
+    font-size: 14px;
+    cursor: pointer;
 }
